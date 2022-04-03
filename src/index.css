@@ -8,21 +8,13 @@ body{
 
 
 .container{
-  height: 700px;
-  width: 700px;
+  height: 750px !important;
+  width: 750px !important;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: repeat(4,1fr);
   gap:1em;
 }
-
-
-@media(min-width:1100px){
-  .overrides .container{
-      width: 960;
-      max-width: 960;
-    }
-  }
 
 h1{
   text-align: center;
